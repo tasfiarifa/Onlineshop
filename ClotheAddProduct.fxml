@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="514.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ClotheAddProductController">
+   <children>
+      <Label layoutX="82.0" layoutY="78.0" text="Quantity" textFill="#c40be3">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="113.0" text="Code" textFill="#02a5d9">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="157.0" text="Brand" textFill="#cae70d">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="240.0" text="Price" textFill="#f707ff">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Cquantity" layoutX="208.0" layoutY="76.0" prefHeight="25.0" prefWidth="157.0" />
+      <TextField fx:id="Cid" layoutX="208.0" layoutY="110.0" prefHeight="25.0" prefWidth="157.0" />
+      <TextField fx:id="Cbrand" layoutX="208.0" layoutY="154.0" prefHeight="25.0" prefWidth="157.0" />
+      <TextField fx:id="Ccategory" layoutX="208.0" layoutY="196.0" prefHeight="25.0" prefWidth="157.0" />
+      <TextField fx:id="Cprice" layoutX="208.0" layoutY="237.0" prefHeight="25.0" prefWidth="157.0" />
+      <Label layoutX="65.0" layoutY="197.0" text="Category">
+         <font>
+            <Font name="Bell MT Bold" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.1908397246863096" startX="0.43129772402858013">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8947368264198303" green="0.27990904450416565" blue="0.05633528158068657" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6787699460983276" green="0.07039999961853027" blue="0.8799999952316284" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="184.0" layoutY="454.0" mnemonicParsing="false" onAction="#confirm" text="Confrim">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.874045830646544" endY="0.6679389522275851" startX="0.47709924346618077">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7823486328125" green="0.07039999961853027" blue="0.8799999952316284" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.07829999923706055" green="0.8700000047683716" blue="0.5816929340362549" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="263.0" layoutY="506.0" mnemonicParsing="false" onAction="#addclothesbutton" text="Add Electronic Items">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.874045830646544" endY="0.6679389522275851" startX="0.47709924346618077">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.06960000097751617" green="0.7259589433670044" blue="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8700000047683716" green="0.572540283203125" blue="0.07829999923706055" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="12.0" layoutY="506.0" mnemonicParsing="false" onAction="#addp" text="Back To Store" textFill="#4a14de">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="82.0" layoutY="40.0" text="Name" textFill="#e40b0b">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Cname" layoutX="208.0" layoutY="37.0" prefHeight="25.0" prefWidth="157.0" />
+      <Button layoutX="103.0" layoutY="389.0" mnemonicParsing="false" onAction="#setSize4" text="XL">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.874045830646544" endY="0.6679389522275851" startX="0.47709924346618077">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7823486328125" green="0.07039999961853027" blue="0.8799999952316284" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7091705203056335" green="0.04450000077486038" blue="0.8899999856948853" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="380.0" layoutY="322.0" mnemonicParsing="false" onAction="#setSize3" prefHeight="36.0" prefWidth="89.0" text="Large" textFill="#5f0be3">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="52.0" layoutY="322.0" mnemonicParsing="false" onAction="#setSize1" prefHeight="35.0" prefWidth="89.0" text="Small" textFill="#0b9ce3">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="206.0" layoutY="322.0" mnemonicParsing="false" onAction="#setSize2" prefHeight="35.0" prefWidth="113.0" text="Medium">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.874045830646544" endY="0.6679389522275851" startX="0.47709924346618077">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7823486328125" green="0.07039999961853027" blue="0.8799999952316284" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04450000077486038" green="0.15690751373767853" blue="0.8899999856948853" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="242.0" layoutY="285.0" text="Size" textFill="#0be37a">
+         <font>
+            <Font name="Cambria Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="314.0" layoutY="389.0" mnemonicParsing="false" onAction="#setSize5" text="XXL" textFill="#e3740b">
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

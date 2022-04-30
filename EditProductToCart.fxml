@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="451.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EditProductToCartController">
+   <children>
+      <Label layoutX="53.0" layoutY="75.0" prefHeight="19.0" prefWidth="91.0" text=" Product Id" textFill="#5018db">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="127.0" text="Amount" textFill="#ff0038">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="159.0" layoutY="124.0" />
+      <TextField layoutX="159.0" layoutY="71.0" />
+      <Button layoutX="41.0" layoutY="205.0" mnemonicParsing="false" text="Save" textFill="#ff053f">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="328.0" layoutY="205.0" mnemonicParsing="false" onAction="#addPlane" text="Pay Bill">
+         <font>
+            <Font name="Cambria Bold Italic" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12397661060094833" green="0.4877582788467407" blue="0.6315789222717285" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.16136841475963593" green="0.09391812980175018" blue="0.7684210538864136" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>
+

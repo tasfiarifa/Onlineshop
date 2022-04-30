@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="494.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ElectronicPutOnSaleController">
+   <children>
+      <Label layoutX="78.0" layoutY="59.0" text="Product Code">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8947368264198303" green="0.05964912101626396" blue="0.05964912101626396" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4421052634716034" green="0.2914619743824005" blue="0.4119766056537628" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="78.0" layoutY="119.0" text="Percentage" textFill="#141be1">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="192.0" layoutY="56.0" />
+      <TextField layoutX="192.0" layoutY="117.0" />
+      <Button layoutX="347.0" layoutY="193.0" mnemonicParsing="false" onAction="#addPlane" prefHeight="36.0" prefWidth="103.0" text="Confrim">
+         <font>
+            <Font name="Cambria Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8947368264198303" green="0.05964912101626396" blue="0.05964912101626396" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4421052634716034" green="0.2914619743824005" blue="0.4119766056537628" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>
+

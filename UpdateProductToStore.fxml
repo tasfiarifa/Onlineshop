@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="462.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateProductToStoreController">
+   <children>
+      <Label layoutX="115.0" layoutY="39.0" text="Update Product To Store">
+         <font>
+            <Font name="Cambria Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.9694656483999645">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6947368383407593" green="0.07204678654670715" blue="0.07204678654670715" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7684210538864136" green="0.6452839374542236" blue="0.09676413238048553" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="79.0" layoutY="148.0" text="Amount" textFill="#c219a0">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="111.0" prefHeight="22.0" prefWidth="104.0" text="Product Code" textFill="#c219a6">
+         <font>
+            <Font name="Cambria Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="233.0" prefHeight="23.0" prefWidth="222.0" text="Remove Product To Store">
+         <font>
+            <Font name="Cambria Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.1530994176864624" green="0.1530994176864624" blue="0.5368421077728271" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.6947368383407593" green="0.04374269023537636" blue="0.651337206363678" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8631578683853149" green="0.4249720573425293" blue="0.041559454053640366" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="48.0" layoutY="287.0" prefHeight="22.0" prefWidth="104.0" text="Product Code" textFill="#bac410">
+         <font>
+            <Font name="Cambria Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="67.0" layoutY="423.0" mnemonicParsing="false" text="Add">
+         <font>
+            <Font name="Gabriola" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.11157894879579544" green="0.5303508639335632" blue="0.5684210658073425" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.11157894879579544" green="0.5303508639335632" blue="0.5684210658073425" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5473684072494507" green="0.15001949667930603" blue="0.5275009870529175" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="355.0" layoutY="424.0" mnemonicParsing="false" onAction="#addbhahir" text="Exit">
+         <font>
+            <Font name="Gabriola" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5942553877830505" green="0.0851072147488594" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.5942553877830505" green="0.0851072147488594" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6526315808296204" green="0.1087719276547432" blue="0.15409356355667114" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <TextField layoutX="171.0" layoutY="109.0" />
+      <TextField layoutX="170.0" layoutY="145.0" />
+      <TextField layoutX="170.0" layoutY="283.0" />
+   </children>
+</Pane>
+

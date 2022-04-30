@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="510.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VeiwAllInformationController">
+   <children>
+      <Label layoutX="38.0" layoutY="28.0" prefHeight="19.0" prefWidth="118.0" text="Product Name " textFill="#12d4ad">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="70.0" prefHeight="19.0" prefWidth="90.0" text="     Code " textFill="#d715d0">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="112.0" prefHeight="19.0" prefWidth="134.0" text="Product Category " textFill="#04cef7">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="151.0" prefHeight="17.0" prefWidth="99.0" text=" Order Date " textFill="#e815ef">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="187.0" prefHeight="17.0" prefWidth="82.0" text=" Pay Bill " textFill="#0fe1d7">
+         <font>
+            <Font name="Cambria Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="202.0" layoutY="25.0" prefHeight="25.0" prefWidth="213.0" />
+      <Button layoutX="261.0" layoutY="274.0" mnemonicParsing="false" onAction="#addbutton" prefHeight="35.0" prefWidth="175.0" text="Back to The Menu" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.9083969429249071" startX="0.0038167993530972277" startY="0.026717586371734853">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8526315689086914" green="0.5115789771080017" blue="0.09473684430122375" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.17781764268875122" green="0.10559999942779541" blue="0.8799999952316284" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="318.0" layoutY="228.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="90.0" text="Confirm" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.7595419865528136" startX="0.11832061159701748">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.821052610874176" green="0.027368420735001564" blue="0.027368420735001564" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.30421051383018494" green="0.08947368711233139" blue="0.8947368264198303" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <TextField layoutX="202.0" layoutY="67.0" prefHeight="25.0" prefWidth="213.0" />
+      <TextField layoutX="202.0" layoutY="109.0" prefHeight="25.0" prefWidth="213.0" />
+      <TextField layoutX="202.0" layoutY="148.0" prefHeight="25.0" prefWidth="213.0" />
+      <TextField layoutX="202.0" layoutY="183.0" prefHeight="25.0" prefWidth="213.0" />
+   </children>
+</AnchorPane>
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="636.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addProductItemToStoreController">
+   <children>
+      <Label layoutX="217.0" layoutY="44.0" prefHeight="31.0" prefWidth="190.0" text="  Store Product">
+         <font>
+            <Font name="Cambria Bold Italic" size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.9618320838185666" startY="0.0038168084530429986">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7684210538864136" green="0.07684210687875748" blue="0.07684210687875748" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.7684210538864136" green="0.07684210687875748" blue="0.07684210687875748" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15695907175540924" green="0.6499220132827759" blue="0.6947368383407593" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutY="125.0" prefHeight="26.0" prefWidth="131.0" text="    FoodItems">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="288.0" prefHeight="26.0" prefWidth="137.0" text="   ClothItems" textFill="#5c18f2">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutY="434.0" prefHeight="26.0" prefWidth="183.0" text="  ElectronicItems" textFill="#9a0179">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="183.0" layoutY="623.0" mnemonicParsing="false" onAction="#addbhahir" prefHeight="31.0" prefWidth="190.0" text="Back To Menu">
+         <font>
+            <Font name="Cambria Bold" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5534350853839903" endY="0.16219554522911966" startX="0.557978907657597">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7684210538864136" green="0.07684210687875748" blue="0.07684210687875748" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="27.0" layoutY="640.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="Save" textFill="#1d00ed">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="429.0" layoutY="623.0" mnemonicParsing="false" onAction="#addupdate" prefHeight="31.0" prefWidth="177.0" text=" Update To Store" textFill="#016b18">
+         <font>
+            <Font name="Cambria Bold" size="17.0" />
+         </font>
+      </Button>
+      <TableView fx:id="foodproductlist" layoutX="183.0" layoutY="86.0" prefHeight="130.0" prefWidth="434.0" />
+      <TableView fx:id="clothProductList" layoutX="183.0" layoutY="236.0" prefHeight="130.0" prefWidth="434.0" />
+      <TableView fx:id="electronicProductList" layoutX="189.0" layoutY="395.0" prefHeight="130.0" prefWidth="434.0" />
+      <MenuButton layoutX="27.0" layoutY="548.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="190.0" text="   Add Product ">
+         <items>
+            <Menu mnemonicParsing="false" text="Food">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addPlane" text="Add Product" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="ClothItem">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addcloth" text="Add Product" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="ElectronicItem">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addelectronic" text="Add Product" />
+               </items>
+            </Menu>
+         </items>
+         <font>
+            <Font name="Rockwell Bold Italic" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5534350853839903" endY="0.9465648909561507" startX="0.43893128860997793" startY="0.034351130478254714">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7684210538864136" green="0.07684210687875748" blue="0.07684210687875748" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.10370370000600815" green="0.7368420958518982" blue="0.44137752056121826" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.07512670755386353" green="0.11009421944618225" blue="0.49473685026168823" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </MenuButton>
+   </children>
+</Pane>
